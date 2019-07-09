@@ -49,7 +49,7 @@ class App extends Component{
             alert("Please enter a name for the file")
         }
         else {
-            let html_start = '<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<meta http-equiv="X-UA-Compatible" content="ie=edge">\n<meta http-equiv="X-UA-Compatible" content="ie=edge">\n<title>Downloaded Markdown</title>\n<style>\nbody {font-family: Georgia, Cambria, Times, serif; font-size: 15pt; margin: auto; max-width: 75%;}\n</style>\n</head>\n<body>\n';
+            let html_start = '<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<meta http-equiv="X-UA-Compatible" content="ie=edge">\n<meta http-equiv="X-UA-Compatible" content="ie=edge">\n<title>Downloaded Markdown</title>\n<style>\nbody {font-family: Georgia, Cambria, Times, serif; font-size: 15pt; margin: auto; max-width: 75%;}\ncode {color: red;}\n</style>\n</head>\n<body>\n';
             
             let htmlMarkdown = marked(this.state.markdown);
             
