@@ -26,4 +26,15 @@ This project is a simple design using React and Webpack to host built from scrat
 To use the project just clone the project and make sure to have Node.js installed on your local machine
 
 **Run:**
+Make sure you are in the project directory and then use:
+
+``` npm install ```
+
+To download all of the dependencies for the project
+
+To start the project use command:
+
+``` npm start ```
+
+Which will begin the webpack server hot on local host 3000.
 
