@@ -24,4 +24,6 @@ This project is a simple design using React and Webpack to host built from scrat
 ### Usage
 
 To use the project just clone the project and make sure to have Node.js installed on your local machine
-*Run:*
+
+**Run:**
+
