@@ -46,3 +46,5 @@ If we run:
 ``` npm run build ```
 
 We get the compiled output of the application in the "dist" folder, with index_bundle.js and index.html
+
+The index.html can be opened from the dist folder and the entire application will be run on the browser
