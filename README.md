@@ -4,6 +4,9 @@ This project is a simple design using React and Webpack to host built from scrat
 
 ### Basic file structure
 ```
+├── dist
+│   ├── index_bundle.js
+│   └── index.html
 ├── src
 │   ├── components
 │   │   ├── App.js
@@ -37,3 +40,9 @@ To start the project use command:
 
 Which will begin the webpack server hot on local host 3000.
 
+
+If we run: 
+
+``` npm run build ```
+
+We get the compiled output of the application in the "dist" folder, with index_bundle.js and index.html
