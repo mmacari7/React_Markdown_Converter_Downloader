@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Macari Michael 10432224",
+  "author": "Macari Michael",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
